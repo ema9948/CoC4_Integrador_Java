@@ -20,7 +20,7 @@ Posteriormente, proporciona el enlace correspondiente para su evaluación.
 <hr>
 Este proyecto representa la integración del Back-end en una aplicación web que utiliza MySQL como base de datos,
 JSP (JavaServer Pages) para la creación dinámica de páginas web, Java 8 como lenguaje principal, y Bootstrap para un diseño frontend responsivo.
-![  Proyecto final 2023 ](https://github.com/ema9948/CoC4_Integrador_Java/blob/main/src/main/webapp/assets/home1.png)
+![Proyecto_final](https://github.com/ema9948/CoC4_Integrador_Java/blob/main/src/main/webapp/assets/home1.png)
 
 <hr>
 
