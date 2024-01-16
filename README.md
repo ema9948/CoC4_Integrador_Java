@@ -14,14 +14,23 @@ YouTube (https://youtube.com),
 Vimeo (https://vimeo.com/),
 o https://www.dailymotion.com/ar.
 Posteriormente, proporciona el enlace correspondiente para su evaluación.
-<hr>
 Este proyecto representa la integración del Back-end en una aplicación web que utiliza MySQL como base de datos,
 JSP (JavaServer Pages) para la creación dinámica de páginas web, Java 8 como lenguaje principal, y Bootstrap para un diseño frontend responsivo.
+
+<hr>
+
 ![Proyecto_final](https://github.com/ema9948/CoC4_Integrador_Java/blob/main/src/main/webapp/assets/home1.png)
+
+![Proyecto_final](https://github.com/ema9948/CoC4_Integrador_Java/blob/main/src/main/webapp/assets/home3.png)
+
+<hr>
+
 
 
 ## Este proyecto representa la integración del Back-end en una aplicación web que utiliza MySQL como base de datos, JSP (JavaServer Pages)
 ## para la creación dinámica de páginas web, Java 8 como lenguaje principal, y Bootstrap para un diseño frontend responsivo.
+
+
 
 
 # Descripción
@@ -31,8 +40,6 @@ Base de Datos MySQL: Se ha diseñado y utilizado una base de datos en MySQL para
 Bootstrap para el Diseño Frontend: La interfaz de usuario se ha desarrollado utilizando Bootstrap para garantizar un diseño atractivo y responsivo.
 Servidor de Aplicaciones: La aplicación está diseñada para ser desplegada en Apache Tomcat.
 <br>
-
-![Final_js_front_2021](https://github.com/Marl8/TP-FrontEnd-Codo-a-Codo-4.0/assets/116129705/a76aaf43-bbca-4812-8de2-c4a8c65e91bc)
 
 # Configuración y Uso con NetBeans
 
