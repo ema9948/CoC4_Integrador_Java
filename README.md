@@ -27,15 +27,11 @@ JSP (JavaServer Pages) para la creación dinámica de páginas web, Java 8 como 
 
 # Descripción
 La aplicación se centra en mostrar la funcionalidad del Back-end, donde se han implementado las siguientes características:
-
-## Integración de Back-end: Se ha incorporado la lógica del lado del servidor utilizando Java 8 y JSP, permitiendo la comunicación efectiva entre el Front-end y la base de datos MySQL.
-
-## Base de Datos MySQL: Se ha diseñado y utilizado una base de datos en MySQL para almacenar y gestionar los registros relacionados con la temática elegida (usuarios, conferencistas, etc.).
-
-## Bootstrap para el Diseño Frontend: La interfaz de usuario se ha desarrollado utilizando Bootstrap para garantizar un diseño atractivo y responsivo.
-
-## Servidor de Aplicaciones: La aplicación está diseñada para ser desplegada en Apache Tomcat.
-
+Integración de Back-end: Se ha incorporado la lógica del lado del servidor utilizando Java 8 y JSP, permitiendo la comunicación efectiva entre el Front-end y la base de datos MySQL.
+Base de Datos MySQL: Se ha diseñado y utilizado una base de datos en MySQL para almacenar y gestionar los registros relacionados con la temática elegida (usuarios, conferencistas, etc.).
+Bootstrap para el Diseño Frontend: La interfaz de usuario se ha desarrollado utilizando Bootstrap para garantizar un diseño atractivo y responsivo.
+Servidor de Aplicaciones: La aplicación está diseñada para ser desplegada en Apache Tomcat.
+<br>
 ![Final_js_front_2021](https://github.com/Marl8/TP-FrontEnd-Codo-a-Codo-4.0/assets/116129705/a76aaf43-bbca-4812-8de2-c4a8c65e91bc)
 
 # Configuración y Uso con NetBeans
