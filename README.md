@@ -46,23 +46,28 @@ git clone https://github.com/ema9948/CoC4_Integrador_Java
 
 
 ## Importar el Proyecto en NetBeans:
+
 Abra NetBeans y seleccione "File" -> "Open Project".
 Navegue hasta la carpeta donde clonó el repositorio y seleccione el proyecto.
 
 ## Configuración de la Base de Datos:
+
 Cree una base de datos MySQL.
 Importe el script de la base de datos ubicado en db/script.sql.
 
 ## Configuración del Proyecto Java:
+
 Asegúrese de tener Java 8 instalado.
 Configure la conexión a la base de datos en el archivo src/main/resources/application.properties.
 
 ## Despliegue en Apache Tomcat desde NetBeans:
+
 Haga clic derecho en el proyecto en NetBeans.
 Seleccione "Properties" -> "Run" -> "Manage Configurations".
 Elija "Apache Tomcat" como su servidor y configure la URL del servidor.
 
 ## Iniciar el Proyecto:
+
 Haga clic en "Run Project" (o presione F6) para iniciar la aplicación en el servidor Apache Tomcat desde NetBeans.
 Visualización:
 
