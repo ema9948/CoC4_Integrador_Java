@@ -3,13 +3,12 @@
 ## Proyecto realizado con MySQL, JSP, Java 8 y Bootstrap
 
 ## Consigna:
+
 El trabajo práctico consistía en replicar el siguiente modelo de página
 La tarea consiste en integrar el Back-end en un proyecto que surge de los dos primeros trabajos prácticos, Front-end y Javascript. Ahora,
 la tarea adicional es incorporar una sección que exhiba los datos obtenidos de la base de datos creada en MySQL.
-
 Puedes elegir entre diferentes temáticas para la base de datos, como un registro de usuarios, una lista de personas que participarán en la conferencia,
 o cualquier tema relacionado con la página. El objetivo es mostrar estos registros en un formato de tabla, siguiendo el diseño previamente planificado para tu base de datos.
-
 La entrega del proyecto debe ser presentada en formato de video, con una duración máxima de 3 minutos. Este video debe demostrar la funcionalidad de la aplicación. Sube el video a alguna de las siguientes plataformas:
 YouTube (https://youtube.com),
 Vimeo (https://vimeo.com/),
