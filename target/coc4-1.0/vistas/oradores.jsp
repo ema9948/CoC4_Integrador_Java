@@ -132,7 +132,7 @@
                                 OradorDao dao = new OradorDao();
                                 List<Orador> or = dao.list(pageid, total);
 
-                                if (or.isEmpty() || pagination <= 0) {
+                                if (pagination <= 0) {
                                     response.sendRedirect("oradores.jsp?page=1");
                                 }
 

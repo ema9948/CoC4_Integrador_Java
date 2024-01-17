@@ -47,13 +47,11 @@ public class TicketDao implements ITicket {
 
     @Override
     public boolean delete(int id) {
-        System.out.println(id);
         String sql = "DELETE   FROM  ticket WHERE id=" + id;
         try {
             con = cn.geConnection();
             ps = con.prepareCall(sql);
             ps.executeUpdate();
-            con.close();
             return true;
         } catch (Exception e) {
             System.out.println("ERROR : " + e.getMessage());
@@ -119,8 +117,6 @@ public class TicketDao implements ITicket {
 
     @Override
     public boolean edit(Ticket ticket) {
-        System.out.println(ticket);
-
         String sql = "UPDATE ticket SET nombre='" + ticket.getNombre() + "', apellido='" + ticket.getApellido() + "', email='" + ticket.getEmail() + "', categoria='" + ticket.getCategoria() + "', cantidad='" + ticket.getCantidad() + "', precio='" + ticket.getPrecio() + "' where id=" + ticket.getId();
 
         System.out.println(sql);

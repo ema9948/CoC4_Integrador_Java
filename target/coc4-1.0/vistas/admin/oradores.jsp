@@ -85,7 +85,7 @@
 
                                     OradorDao dao = new OradorDao();
                                     List<Orador> or = dao.list(pageid, total);
-                                    if (or.isEmpty() || pagination <= 0) {
+                                    if (pagination <= 0) {
                                         response.sendRedirect("oradores.jsp?page=1");
                                         return;
                                     }
@@ -95,6 +95,7 @@
                                         pageid = pageid - 1;
                                         pageid = pageid * total + 1;
                                     }
+
 
                                     Iterator<Orador> iter = or.iterator();
                                     Orador orador = null;

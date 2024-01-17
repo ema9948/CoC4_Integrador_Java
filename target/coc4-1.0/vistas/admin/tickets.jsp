@@ -81,7 +81,7 @@
                                     return;
                                 }
                                 List<Ticket> or = dao.list(pageid, total);
-                                if (or.isEmpty() || pagination <= 0) {
+                                if (pagination <= 0) {
                                     response.sendRedirect("tickets.jsp?page=1");
                                     return;
                                 }
@@ -90,6 +90,7 @@
                                     pageid = pageid - 1;
                                     pageid = pageid * total + 1;
                                 }
+
 
                                 Iterator<Ticket> iter = or.iterator();
                                 Ticket ticket = null;

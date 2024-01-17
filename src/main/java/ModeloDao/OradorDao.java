@@ -77,7 +77,6 @@ public class OradorDao implements IOrador {
 
     @Override
     public Boolean add(Orador or) {
-        System.out.println(or.toString());
         String sql = "insert into orador(NOMBRE,APELLIDO,TEMA)values('" + or.getNombre() + "','" + or.getApellido() + "','" + or.tema + "')";
 
         try {
@@ -113,7 +112,6 @@ public class OradorDao implements IOrador {
             con = cn.geConnection();
             ps = con.prepareCall(sql);
             ps.executeUpdate();
-            con.close();
             return true;
         } catch (Exception e) {
             System.out.println("ERROR : " + e.getMessage());
